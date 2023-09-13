@@ -3,7 +3,7 @@ import pandas as pd
 
 
 # Load data from the CSV file
-data = pd.read_csv('climate.csv')  # Replace 'your_data.csv' with your CSV file's name
+data = pd.read_csv('climate.csv')
 
 # Extract the columns from the data
 years = data['Year']
